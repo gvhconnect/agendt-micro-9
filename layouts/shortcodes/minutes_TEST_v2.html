@@ -1,0 +1,37 @@
+{{ $table :=  getJSON  "https://d7okgpmgzkdc1.cloudfront.net/test_5/minutes_155_v7.json"  }}
+<head style="width:100%">
+    <h1 style="color:#91D7AD;text-align:center;">MINUTES</h1>
+
+    <h3>Meeting Overview</h3>
+    <div>
+    <p><b>MeetingID: </b> {{ $table.Meeting.MeetingId}} </p>
+    <p><b>Title: </b> {{ $table.Meeting.Title }} </p>
+    <p><b>Date: </b> {{ $table.Meeting.StartDate  }} </p>
+    <p><b>Attendees: </b>
+      {{ range $table.Meeting.Attendees }}  
+      {{ $row := .  }}
+        <li> <b>Name:</b> {{ .Name }}  ;    <b>Email:</b> {{ .Email }} </li> 
+      {{ end }}
+    </p>
+    <p><b>Tags: </b>
+      {{ range $table.Meeting.Tags }}  
+      {{ $row := .  }}
+        <li> <b>Tag:</b> {{ .Tag }} ; <b>Colour :</b> {{ .Colour }} ; <b>ParentId :</b> {{ .ParentId }} </li>
+      {{ end }}
+    </p>
+    <p><b>Memo: </b> {{ $table.Meeting.Memo }} </p>
+    <p><b>TxOffset: </b> {{ $table.Meeting.TxOffset }} </p>
+    <p><b>Tzone: </b> {{ $table.Meeting.Tzone }} </p>
+    <p><b>Status: </b> {{ $table.Meeting.Status }} </p>
+    <p><b>Location: </b> {{ $table.Meeting.Location }} </p>
+    <p><b>BookingID: </b> {{ $table.Meeting.BookingID }} </p>
+    <p><b>Created: </b> {{ $table.Meeting.Created }} </p>
+    </div>
+</head>
+  <hr>
+<body> 
+    <h3>Meeting Overview</h3>
+    <p><b>MeetingID: </b> {{ $table.Meeting.MeetingId}} </p>
+    <p><b>Title: </b> {{ $table.Meeting.Title }} </p>
+    <p><b>Date: </b> {{ $table.Meeting.StartDate  }} </p>
+</body>

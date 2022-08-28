@@ -1,0 +1,12 @@
+{{ range .Site.Data.quotes }}
+<div>
+<p>quote:  {{.quote}}</p>
+<p>author: {{.author}}</p>
+<p>image:  <a>
+            <img src= {{.image_file}} 
+            width="300" 
+            height="150" />
+            </a>
+                  </p>
+</div>
+{{end}} 

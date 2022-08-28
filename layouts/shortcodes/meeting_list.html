@@ -1,0 +1,26 @@
+{{ $table :=  getJSON "https://d7okgpmgzkdc1.cloudfront.net/test_5/meeting_data.json"  }}
+<h2> {{ with $table.caption }} <caption> {{ . | markdownify }}</caption> {{ end }} </h2> 
+ <table style="width:100%">
+  <thead>
+    <tr>
+      {{ range $table.headers }} <th>{{ . }}</th> {{ end }}
+    </tr>
+  </thead>
+  <tbody> 
+    {{ range $table.rows }}  
+      {{ $row := .  }}
+      <tr>
+        <td> {{ .MeetingID }} </td>
+        <td> {{ .meetingNAME }} </td>
+        <td> {{ .category }} </td>
+        <td> {{ .status }} </td>
+        <td> {{ .importance }} </td>
+        <td> {{ .opportunity }} </td>
+        <td> {{ .effort }} </td>
+        <td> {{ .Attendees }} </td>
+        <td> {{ .location }} </td>
+        <td> {{ .startDate }} </td>
+      </tr>
+    {{ end }}
+  </tbody>
+</table>
