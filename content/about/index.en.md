@@ -1,9 +1,9 @@
 ---
-title: "About LoveIt"
-date: 2019-08-02T11:04:49+08:00
+title: "about agendT"
+date: 2022-08-29T11:04:49+08:00
 draft: false
-description: "About LoveIt"
-images: ["/Apple-Devices-Preview.png"]
+description: "about agendT"
+images: ["/featured-meeting-1.jpg"]
 
 lightgallery: true
 
@@ -19,9 +19,9 @@ math:
 [![GitHub forks](https://img.shields.io/github/forks/dillonzq/LoveIt?style=social)](https://github.com/dillonzq/LoveIt/fork)
 {{< /style >}}
 
-> [:(far fa-kiss-wink-heart fa-fw): LoveIt](https://github.com/dillonzq/LoveIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by {{< person "https://dillonzq.com/" Dillon "author of the LoveIt theme" "/Dillon.png" >}}.
+> [:(far fa-kiss-wink-heart fa-fw): agendT](https://github.com/dillonzq/LoveIt) is a **clean**, **elegant** but **advanced** meeting productivity toolset for the modern mobile and digital professional developed by fastrkr developments.
 >
-> It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
+> It is based on the Keep it Simple Stupid theory, and is designed to make the life of the user easier and more productive.
 
 ![agendT-4-meetings](/images/featured-meeting-1.jpg "agendT-4-meetings")
 
