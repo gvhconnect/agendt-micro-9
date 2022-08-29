@@ -1,9 +1,9 @@
 ---
-title: "my meetings"
-date: 2019-08-02T11:04:49+08:00
+title: my meetings
+date: 2022-08-29T07:04:00Z
 draft: false
-description: "my meetings"
-images: ["/featured-meeting-1.jpg"]
-
-lightgallery: truee
+description: my meetings
+images:
+  - /featured-meeting-1.jpg
+lightgallery: false
 ---
