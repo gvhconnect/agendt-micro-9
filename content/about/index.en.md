@@ -21,7 +21,7 @@ math:
 
 > [:(far fa-kiss-wink-heart fa-fw): agendT](https://github.com/dillonzq/LoveIt) is a **clean**, **elegant** but **advanced** meeting productivity toolset for the modern mobile and digital professional developed by fastrkr developments.
 >
-> It is based on the Keep it Simple Stupid theory, and is designed to make the life of the user easier and more productive.
+> Based on the Keep it Simple Stupid principle, <b>agendT<b> make the our users' lives easier and more productive.
 
 ![agendT-4-meetings](/images/featured-meeting-1.jpg "agendT-4-meetings")
 
