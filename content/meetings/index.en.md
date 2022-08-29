@@ -18,10 +18,8 @@ featuredImage: "featured-meeting-1.png"
 
 ---
 
-{{< style "img { height: 1.25rem; }" >}}
-{{< /style >}}
 
-!(/images/featured-meeting-1.png "my meetings")
+!(/images/featured-meeting-1.jpg "my meetings")
 
 {{< meeting_list >}}
 
