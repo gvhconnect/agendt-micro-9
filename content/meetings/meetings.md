@@ -1,15 +1,15 @@
 ---
-title: "meetings"
+title: "my meetings"
 subtitle: ""
 date: 2022-08-29T05:18:30-04:00
 draft: false
 author: ""
 authorLink: ""
-description: "agendt meetings"
+description: "my meetings"
 license: ""
 images: ["/featured-meeting-1.png"]
 
-tags: ["meetings"]
+tags: []
 categories: []
 
 featuredImage: "featured-meeting-1.png"
@@ -17,6 +17,11 @@ featuredImage: "featured-meeting-1.png"
 
 
 ---
+
+{{< style "img { height: 1.25rem; }" >}}
+{{< /style >}}
+
+![agendt](/"featured-meeting-1.png "agendt")
 
 {{< meeting_list >}}
 
