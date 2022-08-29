@@ -22,7 +22,7 @@
     pre = ""
     post = ""
     name = "meetings"
-    url = "/meeting/"
+    url = "/meetings/"
     title = ""
   [[menu.main]]
     weight = 3
