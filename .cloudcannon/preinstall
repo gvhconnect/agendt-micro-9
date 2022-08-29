@@ -1,0 +1,5 @@
+npm install -g postcss-cli
+npm install autoprefixer
+
+
+export NODE_PATH=`pwd`/node_modules:$NODE_PATH
