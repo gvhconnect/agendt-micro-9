@@ -7,12 +7,12 @@ author: ""
 authorLink: ""
 description: "my meetings"
 license: ""
-images: ["/featured-meeting-1.png"]
+images: ["/featured-meeting-1.jpg"]
 
 tags: []
 categories: []
 
-featuredImage: "featured-meeting-1.png"
+featuredImage: "featured-meeting-1.jpg"
 #featuredImagePreview: ""
 
 
