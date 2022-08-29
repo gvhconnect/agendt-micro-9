@@ -18,4 +18,4 @@ featuredImage: "featured-meeting-1.png"
 
 ---
 
-{< meeting_list.html >}
+{{< meeting_list >}}
