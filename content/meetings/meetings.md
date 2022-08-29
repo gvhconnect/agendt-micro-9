@@ -21,7 +21,7 @@ featuredImage: "featured-meeting-1.png"
 {{< style "img { height: 1.25rem; }" >}}
 {{< /style >}}
 
-![agendt](/"featured-meeting-1.png "agendt")
+![agendt meetings](/static/images/Apple-Devices-Preview.png "my meetings")
 
 {{< meeting_list >}}
 
