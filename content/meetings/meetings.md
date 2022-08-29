@@ -9,7 +9,7 @@ description: "agendt meetings"
 license: ""
 images: ["/featured-meeting-1.png"]
 
-tags: []
+tags: ["meetings"]
 categories: []
 
 featuredImage: "featured-meeting-1.png"
