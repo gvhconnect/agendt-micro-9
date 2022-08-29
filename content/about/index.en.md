@@ -19,7 +19,7 @@ math:
 [![GitHub forks](https://img.shields.io/github/forks/dillonzq/LoveIt?style=social)](https://github.com/dillonzq/LoveIt/fork)
 {{< /style >}}
 
-> [:(far fa-kiss-wink-heart fa-fw): agendT](https://github.com/dillonzq/LoveIt) is a **clean**, **elegant** but **advanced** meeting productivity toolset for the modern mobile and digital professional developed by fastrkr developments.
+> [:(far fa-kiss-wink-heart fa-fw): agendT](https://github.com/dillonzq/LoveIt) is a **clean**, **elegant** but **advanced** meeting productivity toolset for the modern mobile and digital professional developed by **fastrkr developments**.
 >
 > Using the Keep it Simple Stupid principle, we aim to make our users' lives easier and more productive.
 
