@@ -23,7 +23,7 @@ math:
 >
 > It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
 
-![agendT-4-meetings](/images/featured-meeting-1.png "agendT-4-meetings")
+![agendT-4-meetings](/images/featured-meeting-1.jpg "agendT-4-meetings")
 
 ## Features
 
