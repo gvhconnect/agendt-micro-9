@@ -33,7 +33,7 @@
     weight = 30
    [[menu.main]]
     weight = 20
-    identifier = "meetings"
+    identifier = "details"
     pre = ""
     post = ""
     name = "meetings"
@@ -41,25 +41,25 @@
     title = ""
   [[menu.main]]
     identifier = "agenda"
-    parent= "meetings"
+    parent= "details"
     name = "calendar"
     url = "/tags/calendar"
     weight = 10
   [[menu.main]]
     identifier = "minutes"
-    parent= "meetings"
+    parent= "details"
     name = "list"
     url = "/tags/list"
     weight = 20
   [[menu.main]]
     identifier = "to-dos"
-    parent= "meetings"
+    parent= "details"
     name = "priorities"
     url = "/tags/priorities"
     weight = 30  
   [[menu.main]]
     identifier = "attributes"
-    parent= "meetings"
+    parent= "details"
     name = "priorities"
     url = "/tags/priorities"
     weight = 40  
