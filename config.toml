@@ -31,8 +31,40 @@
     name = "priorities"
     url = "/tags/priorities"
     weight = 30
-  [[menu.main]]
+   [[menu.main]]
     weight = 20
+    identifier = "meetings"
+    pre = ""
+    post = ""
+    name = "meetings"
+    url = "/meetings/"
+    title = ""
+  [[menu.main]]
+    identifier = "agenda"
+    parent= "meetings"
+    name = "calendar"
+    url = "/tags/calendar"
+    weight = 10
+  [[menu.main]]
+    identifier = "minutes"
+    parent= "meetings"
+    name = "list"
+    url = "/tags/list"
+    weight = 20
+  [[menu.main]]
+    identifier = "to-dos"
+    parent= "meetings"
+    name = "priorities"
+    url = "/tags/priorities"
+    weight = 30  
+  [[menu.main]]
+    identifier = "attributes"
+    parent= "meetings"
+    name = "priorities"
+    url = "/tags/priorities"
+    weight = 40  
+  [[menu.main]]
+    weight = 30
     identifier = "posts"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
@@ -43,7 +75,7 @@
     # title will be shown when you hover on this menu link
     title = ""
   [[menu.main]]
-    weight = 30
+    weight = 40
     identifier = "tags"
     pre = ""
     post = ""
@@ -51,7 +83,7 @@
     url = "/tags/"
     title = ""
   [[menu.main]]
-    weight = 40
+    weight = 50
     identifier = "categories"
     pre = ""
     post = ""
@@ -59,7 +91,7 @@
     url = "/categories/"
     title = ""
    [[menu.main]]
-    weight = 50
+    weight = 60
     identifier = "about"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
