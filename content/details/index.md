@@ -24,7 +24,7 @@ featuredImage: "featured-meeting-1.jpg"
 {{< meeting_list >}}
 
 {{< echarts >}}
-var data = [
+
   {
     name: 'Grandpa',
     children: [
