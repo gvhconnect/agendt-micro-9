@@ -26,9 +26,6 @@ featuredImage: "featured-meeting-1.jpg"
 {{< echarts >}}
 
 {
-  series: {
-    type: "sunburst",
-    data: [{
       name: "Food",
       children: [{
         value: 3,
@@ -170,7 +167,5 @@ featuredImage: "featured-meeting-1.jpg"
           value: 1
         }]
       }]
-    }]
-  }
-}
+    }
 {{< /echarts >}}
