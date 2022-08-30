@@ -25,7 +25,7 @@ featuredImage: "featured-meeting-1.jpg"
 
 {{< echarts >}}
 
- option = {
+{
   series: {
     type: "sunburst",
     data: [{
