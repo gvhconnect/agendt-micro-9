@@ -36,32 +36,32 @@
     identifier = "details"
     pre = ""
     post = ""
-    name = "meetings"
-    url = "/meetings/"
+    name = "details"
+    url = "/details/"
     title = ""
   [[menu.main]]
     identifier = "agenda"
     parent= "details"
-    name = "calendar"
-    url = "/tags/calendar"
+    name = "agenda"
+    url = "/tags/agenda"
     weight = 10
   [[menu.main]]
     identifier = "minutes"
     parent= "details"
-    name = "list"
-    url = "/tags/list"
+    name = "minutes"
+    url = "/tags/minutes"
     weight = 20
   [[menu.main]]
     identifier = "to-dos"
     parent= "details"
-    name = "priorities"
-    url = "/tags/priorities"
+    name = "to-dos"
+    url = "/tags/to-dos"
     weight = 30  
   [[menu.main]]
     identifier = "attributes"
     parent= "details"
-    name = "priorities"
-    url = "/tags/priorities"
+    name = "attributes"
+    url = "/tags/attributes"
     weight = 40  
   [[menu.main]]
     weight = 30
