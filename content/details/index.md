@@ -24,7 +24,6 @@ featuredImage: "featured-meeting-1.jpg"
 {{< meeting_list >}}
 
 {{< echarts >}}
-
 {
       name: "Food",
       children: [{
@@ -166,6 +165,5 @@ featuredImage: "featured-meeting-1.jpg"
           name: "Sound Cards",
           value: 1
         }]
-      }]
-    }
+ }
 {{< /echarts >}}
