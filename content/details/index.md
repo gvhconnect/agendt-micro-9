@@ -24,7 +24,10 @@ featuredImage: "featured-meeting-1.jpg"
 {{< meeting_list >}}
 
 {{< echarts >}}
-{
+option = {
+  series: {
+    type: "sunburst",
+    data: [{
       name: "Food",
       children: [{
         value: 3,
@@ -165,5 +168,8 @@ featuredImage: "featured-meeting-1.jpg"
           name: "Sound Cards",
           value: 1
         }]
- }
+      }]
+    }]
+  }
+}
 {{< /echarts >}}
