@@ -24,7 +24,7 @@ featuredImage: "featured-meeting-1.jpg"
 {{< meeting_list >}}
 
 {{< echarts >}}
-{
+option = {
   xAxis: {
     data: ['A', 'B', 'C', 'D', 'E']
   },
@@ -35,12 +35,12 @@ featuredImage: "featured-meeting-1.jpg"
       type: 'line',
       lineStyle: {
         normal: {
-          color: 'green',
+          color: 'purple',
           width: 4,
           type: 'dashed'
         }
       }
     }
   ]
-}
+};
 {{< /echarts >}}
