@@ -25,12 +25,12 @@ featuredImage: "featured-meeting-1.jpg"
 
 {{< echarts >}}
 {
-  xAxis: {},
-  yAxis: {},
-  series: [
+  "xAxis": {},
+  "yAxis": {},
+  "series": [
     {
-      symbolSize: 20,
-      data: [
+      "symbolSize": 20,
+      "data": [
         [10.0, 8.04],
         [8.07, 6.95],
         [13.0, 7.58],
@@ -54,7 +54,7 @@ featuredImage: "featured-meeting-1.jpg"
         [7.08, 5.82],
         [5.02, 5.68]
       ],
-      type: 'scatter'
+      "type": "scatter"
     }
   ]
 }
