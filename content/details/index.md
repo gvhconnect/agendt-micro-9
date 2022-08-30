@@ -24,8 +24,7 @@ featuredImage: "featured-meeting-1.jpg"
 {{< meeting_list >}}
 
 {{< echarts >}}
-function getVirtulData(year) {
-  year = year || '2022';
+{ year = year || '2022';
   let date = +echarts.number.parseDate(year + '-01-01');
   let end = +echarts.number.parseDate(+year + 1 + '-01-01');
   let dayTime = 3600 * 24 * 1000;
