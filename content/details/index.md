@@ -24,7 +24,12 @@ featuredImage: "featured-meeting-1.jpg"
 {{< meeting_list >}}
 
 {{< echarts >}}
-option = {
+{
+  "title": {
+    "text": "Summary Line Chart",
+    "top": "2%",
+    "left": "center"
+  },
   xAxis: {
     data: ['A', 'B', 'C', 'D', 'E']
   },
@@ -42,5 +47,5 @@ option = {
       }
     }
   ]
-};
+}
 {{< /echarts >}}
