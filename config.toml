@@ -6,7 +6,7 @@
 # Menu config
 [menu]
    [[menu.main]]
-    weight = 1
+    weight = 10
     identifier = "meetings"
     pre = ""
     post = ""
@@ -18,21 +18,21 @@
     parent= "meetings"
     name = "calendar"
     url = "/tags/calendar"
-    weight = 1
+    weight = 10
   [[menu.main]]
     identifier = "list"
     parent= "meetings"
     name = "list"
     url = "/tags/list"
-    weight = 2
+    weight = 20
   [[menu.main]]
     identifier = "priorities"
     parent= "meetings"
     name = "priorities"
     url = "/tags/priorities"
-    weight = 3
+    weight = 30
   [[menu.main]]
-    weight = 2
+    weight = 20
     identifier = "posts"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
@@ -43,7 +43,7 @@
     # title will be shown when you hover on this menu link
     title = ""
   [[menu.main]]
-    weight = 3
+    weight = 30
     identifier = "tags"
     pre = ""
     post = ""
@@ -51,7 +51,7 @@
     url = "/tags/"
     title = ""
   [[menu.main]]
-    weight = 4
+    weight = 40
     identifier = "categories"
     pre = ""
     post = ""
@@ -59,7 +59,7 @@
     url = "/categories/"
     title = ""
    [[menu.main]]
-    weight = 5
+    weight = 50
     identifier = "about"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
