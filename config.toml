@@ -7,101 +7,63 @@
 [menu]
    [[menu.main]]
     weight = 10
-    identifier = "meetings"
-    pre = ""
-    post = ""
     name = "meetings"
     url = "/meetings/"
-    title = ""
   [[menu.main]]
-    identifier = "calendar"
     parent= "meetings"
     name = "calendar"
     url = "/tags/calendar"
     weight = 10
   [[menu.main]]
-    identifier = "list"
     parent= "meetings"
     name = "list"
     url = "/tags/list"
     weight = 20
   [[menu.main]]
-    identifier = "priorities"
     parent= "meetings"
     name = "priorities"
     url = "/tags/priorities"
     weight = 30
    [[menu.main]]
     weight = 20
-    identifier = "details"
-    pre = ""
-    post = ""
     name = "details"
     url = "/details/"
-    title = ""
   [[menu.main]]
-    identifier = "agenda"
     parent= "details"
     name = "agenda"
     url = "/tags/agenda"
     weight = 10
   [[menu.main]]
-    identifier = "minutes"
     parent= "details"
     name = "minutes"
     url = "/tags/minutes"
     weight = 20
   [[menu.main]]
-    identifier = "to-dos"
     parent= "details"
     name = "to-dos"
     url = "/tags/to-dos"
     weight = 30  
   [[menu.main]]
-    identifier = "attributes"
     parent= "details"
     name = "attributes"
     url = "/tags/attributes"
     weight = 40  
   [[menu.main]]
     weight = 30
-    identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
     name = "posts"
     url = "/posts/"
-    # title will be shown when you hover on this menu link
-    title = ""
   [[menu.main]]
     weight = 40
-    identifier = "tags"
-    pre = ""
-    post = ""
     name = "Tags"
     url = "/tags/"
-    title = ""
   [[menu.main]]
     weight = 50
-    identifier = "categories"
-    pre = ""
-    post = ""
     name = "Categories"
     url = "/categories/"
-    title = ""
    [[menu.main]]
     weight = 60
-    identifier = "about"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
     name = "about"
     url = "/about/"
-    # title will be shown when you hover on this menu link
-    title = ""
-
 
 
 
