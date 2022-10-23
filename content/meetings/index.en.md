@@ -13,7 +13,7 @@ tags:
 categories:
 featuredImage: featured-meeting-1.jpg
 ---
-(/images/featured-meeting-1.jpg "my meetings")
+\!(/images/featured-meeting-1.jpg "my meetings")
 
 {{< meeting_list >}}
 
