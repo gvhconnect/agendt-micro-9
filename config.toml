@@ -17,18 +17,17 @@
   [[menu.main]]
     parent= "meetings"
     name = "list"
-    url = "/meetings/list"
+    url = "/tags/list"
     weight = 20
   [[menu.main]]
     parent= "meetings"
     name = "priorities"
     url = "/tags/priorities"
     weight = 30
-   [[menu.main]]
-    parent= "meetings"
+  [[menu.main]]
     weight = 20
     name = "details"
-    url = "/meetings/details/"
+    url = "/details/"
   [[menu.main]]
     parent= "details"
     name = "agenda"
