@@ -17,7 +17,7 @@
   [[menu.main]]
     parent= "meetings"
     name = "list"
-    url = "/tags/list"
+    url = "/meetings/list"
     weight = 20
   [[menu.main]]
     parent= "meetings"
@@ -25,9 +25,10 @@
     url = "/tags/priorities"
     weight = 30
    [[menu.main]]
+    parent= "meetings"
     weight = 20
     name = "details"
-    url = "/details/"
+    url = "/meetings/details/"
   [[menu.main]]
     parent= "details"
     name = "agenda"
