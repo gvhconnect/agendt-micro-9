@@ -29,6 +29,29 @@
     name = "details"
     url = "/details/"
   [[menu.main]]
+    identifier = "e-test"
+    name = "e-test"
+    url = "/e-test"
+    weight = 2
+  [[menu.main]]
+    identifier = "e-test1"
+    name = "e-test1"
+    url = "/tags/e-test1"
+    parent = "e-test"
+    weight = 1
+  [[menu.main]]
+    identifier = "e-test2"
+    name = "e-test2"
+    url = "/tags/e-test2"
+    parent = "e-test"
+    weight = 2
+  [[menu.main]]
+    identifier = "e-test3"
+    name = "e-test3"
+    url = "/tags/e-test3"
+    parent = "e-test"
+    weight = 3
+  [[menu.main]]
     parent= "details"
     name = "agenda"
     url = "/tags/agenda"
