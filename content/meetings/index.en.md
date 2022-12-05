@@ -1,25 +1,22 @@
 ---
-title: "my meetings"
-subtitle: ""
-date: 2022-08-29T05:18:30-04:00
+title: my new meetings
+subtitle:
+date: 2022-08-29T09:18:30Z
 draft: false
-author: ""
-authorLink: ""
-description: "my meetings"
-license: ""
-images: ["/featured-meeting-1.jpg"]
-
-tags: []
-categories: []
-
-featuredImage: "featured-meeting-1.jpg"
-#featuredImagePreview: ""
-
-
+author:
+authorLink:
+description: my meetings
+license:
+images:
+  - /featured-meeting-1.jpg
+tags:
+categories:
+featuredImage: featured-meeting-1.jpg
 ---
+### A new dawn, with a fresh cuppa...
+{{< figure src="https://d7okgpmgzkdc1.cloudfront.net/acct-01/user-02/IMG_1961.jpeg" title="Test_image_2_Collection" >}}
 
-
-!(/images/featured-meeting-1.jpg "my meetings")
+\!(/images/featured-meeting-1.jpg "my meetings")
 
 {{< meeting_list >}}
 
